@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EliminarCuentas"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tveliminarcuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Cuenta"
+        tools:ignore="MissingConstraints"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#A57CED"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/etnrocuentaaeliminar"
+        android:layout_marginTop="35dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Nro de cuenta a eliminar"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="cursive"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btneliminarcuenta"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:textAllCaps="false"
+            android:backgroundTint="#A57CED"
+            android:fontFamily="cursive"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>/>
+
+</LinearLayout>
